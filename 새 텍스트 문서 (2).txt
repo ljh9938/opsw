@@ -41,30 +41,11 @@ public class sa {
 		
 		JButton b1 = new JButton("주변 문화시설 찾기");
 		f.add(b1);
-		b1.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				label.setText(null);
-				
 
-			}
-		});
-	
 		JButton b2 = new JButton("문화검색");
 		f.add(b2);
-		b2.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
 					
-					JTextField textField = new JTextField(30);
-					JButton button = new JButton("검색");
-					GoogleAPI googleAPI = new GoogleAPI();
-					f.add(textField);
-					f.add(button);
-
-					
-				
-
-			}
-		});
+	
 		JButton b3 = new JButton("도움말");
 		f.add(b3);
 		b3.addActionListener(new ActionListener() {
